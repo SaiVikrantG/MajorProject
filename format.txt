@@ -1,3 +1,42 @@
+Old Prompt
+
+prompt = f"""
+CONVERSATION:
+{conversation_text}
+
+SUMMARY:
+Please generate a medical summary based on the following clinical notes. The summary should include the following sections: Chief Complaint, History of Present Illness, Vitals, Physical Exam, Results, Assessment, Plan, and Instructions.
+Please format the response as plain text, without using markdown or special formatting, and with clear headings for each section, like this:
+
+
+CHIEF COMPLAINT
+A concise statement of the patient's primary concern or reason for visiting the clinic.
+
+HISTORY OF PRESENT ILLNESS
+A detailed narrative about the patient's symptoms, their onset, duration, and any relevant medical history or previous treatments.
+
+VITALS
+Include any relevant vital signs (e.g., oxygen saturation, blood pressure) if available.
+
+PHYSICAL EXAM 
+Summarize the findings from the physical examination, including any notable abnormalities.
+
+RESULTS 
+Summarize the results of any diagnostic tests performed (e.g., lab work, imaging studies).
+
+ASSESSMENT
+The doctor's assessment of the patient's condition or diagnosis.
+
+PLAN
+The treatment plan, including prescribed medications, lifestyle recommendations, and follow-up instructions.
+
+INSTRUCTIONS
+Specific instructions for the patient regarding their treatment plan and follow-up care.
+
+Important Note: If any section lacks relevant information or if specific details are not provided (e.g., vitals are not mentioned, no abnormal findings in the physical exam), omit that section from the generated summary. Only include sections for which there is sufficient information available.
+"""
+
+New Prompt with added attributes
 SUMMARY:
 Please generate a medical summary based on the following clinical notes. The summary should include the following sections: Chief Complaint, History of Present Illness, Vitals, Physical Exam, Results, Assessment, Plan, and Instructions.
 Please format the response as plain text, without using markdown or special formatting, and with clear headings for each section, like this:
@@ -44,7 +83,7 @@ Specific instructions for the patient regarding their treatment plan and follow-
 
 
 
-Improved Descriptions(Need to modify to make it suitable)
+Improved Descriptions(Need to modify to make it suitable to go in prompt)
 **CHIEF COMPLAINT**  
 This section should contain a concise statement of the patient's primary concern or reason for seeking medical attention. It could be the issue that prompted the patient to visit the clinic, such as "persistent acne," "abdominal pain," or "difficulty managing weight." The chief complaint should summarize the patient's most pressing issue in their own words.
 
@@ -82,4 +121,3 @@ The treatment plan should outline the next steps in managing the patient's condi
 
 **INSTRUCTIONS**  
 Provide specific instructions for the patient to follow regarding their treatment plan, medications, lifestyle changes, and follow-up care. This section is crucial to ensure the patient understands their treatment and what to do if their condition worsens or if they experience new symptoms.
-
