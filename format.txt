@@ -1,0 +1,85 @@
+SUMMARY:
+Please generate a medical summary based on the following clinical notes. The summary should include the following sections: Chief Complaint, History of Present Illness, Vitals, Physical Exam, Results, Assessment, Plan, and Instructions.
+Please format the response as plain text, without using markdown or special formatting, and with clear headings for each section, like this:
+
+
+CHIEF COMPLAINT
+A concise statement of the patient's primary concern or reason for visiting the clinic.
+
+REVIEW OF SYSTEMS
+A comprehensive evaluation of the patient's overall health across multiple body systems. It helps identify any symptoms or conditions that may not have been previously mentioned but could be relevant to the diagnosis.
+
+HISTORY OF PRESENT ILLNESS
+A detailed narrative about the patient's symptoms, their onset, duration, and any relevant medical history or previous treatments.
+
+PAST HISTORY
+provides information about the patient's relevant past medical conditions, surgeries, hospitalizations, and ongoing health issues that are important for the current assessment.
+
+CURRENT MEDICATIONS
+All medications the patient is currently taking, including prescriptions, over-the-counter drugs, and supplements. Include dosages and the purpose of each medication if relevant.
+
+ALLERGIES
+Document any known allergies the patient has, including drug allergies, food allergies, environmental allergies, or reactions to specific substances.
+
+VITALS
+Include any relevant vital signs (e.g., oxygen saturation, blood pressure) if available.
+
+PHYSICAL EXAM 
+Summarize the findings from the physical examination, including any notable abnormalities.
+
+RESULTS 
+Summarize the results of any diagnostic tests performed (e.g., lab work, imaging studies).
+
+ASSESSMENT
+The doctor's assessment of the patient's condition or diagnosis.
+
+PLAN
+The treatment plan, including prescribed medications, lifestyle recommendations, and follow-up instructions.
+
+PROCEDURE
+A detailed description of the procedure performed, including any relevant steps, complications, and follow-up care.
+
+INSTRUCTIONS
+Specific instructions for the patient regarding their treatment plan and follow-up care.
+
+
+
+Improved Descriptions(Need to modify to make it suitable)
+**CHIEF COMPLAINT**  
+This section should contain a concise statement of the patient's primary concern or reason for seeking medical attention. It could be the issue that prompted the patient to visit the clinic, such as "persistent acne," "abdominal pain," or "difficulty managing weight." The chief complaint should summarize the patient's most pressing issue in their own words.
+
+**REVIEW OF SYSTEMS**  
+In this section, provide a comprehensive evaluation of the patient's health across multiple body systems. It includes questions about different symptoms the patient may or may not be experiencing, which could be relevant to the current condition. It should cover systems such as cardiovascular, respiratory, gastrointestinal, musculoskeletal, and constitutional symptoms. This section helps uncover any issues that haven’t been mentioned explicitly but could impact the diagnosis or treatment plan.
+
+**HISTORY OF PRESENT ILLNESS**  
+This section should describe in detail the patient’s current condition or symptoms, including their onset, duration, frequency, and severity. It may also cover any treatments the patient has previously tried or any relevant medical history that could relate to their current complaints. The history of present illness helps to paint a clear picture of the patient's current state.
+
+**PAST HISTORY**  
+This section provides information about the patient's relevant past medical conditions, surgeries, hospitalizations, and ongoing health issues that are important for the current assessment. It may include chronic conditions (e.g., hypothyroidism, diabetes), previous surgeries, or past health problems that could influence the patient's current condition or management.
+
+**CURRENT MEDICATIONS**  
+List all medications the patient is currently taking, including prescriptions, over-the-counter drugs, and supplements. Include dosages and the purpose of each medication if relevant. This section is important for assessing potential drug interactions or understanding how existing treatments might affect the patient’s current condition.
+
+**ALLERGIES**  
+Document any known allergies the patient has, including drug allergies, food allergies, environmental allergies, or reactions to specific substances. This section is critical for avoiding allergens during treatment and ensuring patient safety.
+
+**VITALS**  
+This section includes any relevant vital signs (such as blood pressure, heart rate, temperature, respiratory rate, oxygen saturation, and weight). These measurements provide baseline data on the patient's overall health and can indicate if the patient is experiencing any acute distress or abnormalities that need to be addressed.
+
+**PHYSICAL EXAM**  
+Provide a summary of the physical examination findings. This includes any notable abnormal findings from the examination, such as tenderness, swelling, deformities, or unusual sounds (e.g., heart murmurs or lung crackles). It should also mention normal findings if relevant to the patient's health status.
+
+**RESULTS**  
+This section includes any diagnostic tests or imaging studies performed (e.g., blood work, X-rays, ultrasound, or cultures). Summarize the key findings of those tests, noting whether they support or contradict the suspected diagnosis.
+
+**ASSESSMENT**  
+Here, the physician provides their professional evaluation of the patient’s condition. This section includes a diagnosis or differential diagnoses based on the patient's history, physical exam, and test results. The assessment often ties together the clinical picture and identifies the most likely cause of the patient's symptoms.
+
+**PLAN**  
+The treatment plan should outline the next steps in managing the patient's condition. This includes prescribed medications, lifestyle modifications, referrals to specialists, and any additional testing or follow-up appointments. The plan should be tailored to the patient's specific needs and condition.
+
+**PROCEDURE**
+
+**INSTRUCTIONS**  
+Provide specific instructions for the patient to follow regarding their treatment plan, medications, lifestyle changes, and follow-up care. This section is crucial to ensure the patient understands their treatment and what to do if their condition worsens or if they experience new symptoms.
+
